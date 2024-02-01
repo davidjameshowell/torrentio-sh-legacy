@@ -7,7 +7,7 @@ const Promises = require('../../lib/promises');
 const { createTorrentEntry, checkAndUpdateTorrent } = require('../../lib/torrentEntries');
 
 const NAME = '1337x';
-const UNTIL_PAGE = 10;
+const UNTIL_PAGE = 150;
 const TYPE_MAPPING = typeMapping();
 
 const limiter = new Bottleneck({ maxConcurrent: 10 });
@@ -22,7 +22,11 @@ async function scrape() {
         lastScrape.lastScraped = scrapeStart;
         return lastScrape.save();
       })
-      .then(() => console.log(`[${moment()}] finished ${NAME} scrape`));
+      .then(() => console.log(`[${moment()}] finished ${NAME} scrape`))
+      .then(() => {
+        leetx.FlaresolverrCookies = '';
+        leetx.FlaresolverrUserAgent = '';
+      });
 }
 
 async function updateSeeders(torrent) {
