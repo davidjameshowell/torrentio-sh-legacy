@@ -12,83 +12,12 @@ export const Providers = {
       label: 'EZTV'
     },
     {
-      key: 'rarbg',
-      label: 'RARBG'
-    },
-    {
       key: '1337x',
       label: '1337x'
     },
     {
-      key: 'thepiratebay',
-      label: 'ThePirateBay'
-    },
-    {
-      key: 'kickasstorrents',
-      label: 'KickassTorrents'
-    },
-    {
       key: 'torrentgalaxy',
       label: 'TorrentGalaxy'
-    },
-    {
-      key: 'magnetdl',
-      label: 'MagnetDL'
-    },
-    {
-      key: 'horriblesubs',
-      label: 'HorribleSubs',
-      anime: true
-    },
-    {
-      key: 'nyaasi',
-      label: 'NyaaSi',
-      anime: true
-    },
-    {
-      key: 'tokyotosho',
-      label: 'TokyoTosho',
-      anime: true
-    },
-    {
-      key: 'anidex',
-      label: 'AniDex',
-      anime: true
-    },
-    {
-      key: 'rutor',
-      label: 'Rutor',
-      foreign: '🇷🇺'
-    },
-    {
-      key: 'rutracker',
-      label: 'Rutracker',
-      foreign: '🇷🇺'
-    },
-    {
-      key: 'comando',
-      label: 'Comando',
-      foreign: '🇵🇹'
-    },
-    {
-      key: 'bludv',
-      label: 'BluDV',
-      foreign: '🇵🇹'
-    },
-    {
-      key: 'torrent9',
-      label: 'Torrent9',
-      foreign: '🇫🇷'
-    },
-    {
-      key: 'mejortorrent',
-      label: 'MejorTorrent',
-      foreign: '🇪🇸'
-    },
-    {
-      key: 'cinecalidad',
-      label: 'Cinecalidad',
-      foreign: '🇲🇽'
     },
   ]
 };
